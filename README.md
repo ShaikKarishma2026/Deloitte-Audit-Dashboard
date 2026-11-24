@@ -140,7 +140,7 @@ Deloitte-Audit-Dashboard/
 1. **Prerequisite:** Install [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
 2. **Clone the repository:**
    ```bash
-   git clone https://github.com/Karishma2026/Deloitte-Audit-Dashboard.git
+   git clone https://github.com/ShaikKarishma2026/Deloitte-Audit-Dashboard.git
    ```
 3. Open `Deloitte_Audit_Dashboard.pbix` in Power BI Desktop.
 4. Interact with the slicers and visuals across all 5 report pages!
@@ -152,4 +152,4 @@ Deloitte-Audit-Dashboard/
 * **Target Role:** Analyst Trainee / Associate (Deloitte 2027 NLA)
 * **Certifications:** Deloitte Technology Job Simulation (Forage), Deloitte Australia Data Analytics Simulation (Forage), AWS Solutions Architecture (Forage), Pluto Academy Java DSA.
 * **LinkedIn:** [linkedin.com/in/Karishma2026](https://linkedin.com/in/Karishma2026)
-* **GitHub:** [github.com/Karishma2026](https://github.com/Karishma2026)
+* **GitHub:** [github.com/ShaikKarishma2026](https://github.com/ShaikKarishma2026)
