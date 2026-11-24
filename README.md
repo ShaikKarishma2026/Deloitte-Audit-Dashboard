@@ -20,14 +20,20 @@ In corporate professional services and consulting firms like **Deloitte**, manag
 
 Here are views from the live Power BI dashboard:
 
-### Executive Audit & Governance Overview
-![Deloitte Audit Dashboard - Executive View](screenshots/dashboard_view_1.png)
+### Page 1: Executive Audit & Categorical Distribution
+![Deloitte Audit Dashboard - Page 1](screenshots/page_1_overview.png)
 
-### Departmental & Tracking Trends
-![Deloitte Audit Dashboard - Trends View](screenshots/dashboard_view_2.png)
+### Page 2: Submission Velocity & Tracking Timeline Trends
+![Deloitte Audit Dashboard - Page 2](screenshots/page_2_tracking_trends.png)
 
-### Risk Exposure & Metric Summary
-![Deloitte Audit Dashboard - Metric View](screenshots/dashboard_view_3.png)
+### Page 3: Key Financial & Compliance Metrics
+![Deloitte Audit Dashboard - Page 3](screenshots/page_3_financial_metrics.png)
+
+### Page 4: Organizational Exposure & Employee Distribution
+![Deloitte Audit Dashboard - Page 4](screenshots/page_4_organizational_metrics.png)
+
+### Page 5: Risk Level & Forensic Governance Breakdown
+![Deloitte Audit Dashboard - Page 5](screenshots/page_5_risk_distribution.png)
 
 ---
 
@@ -121,9 +127,11 @@ Deloitte-Audit-Dashboard/
 │   └── Deloitte_Audit_Data_Export_20261123.csv # Relational CSV export
 │
 ├── screenshots/
-│   ├── dashboard_view_1.png          # Executive & category view
-│   ├── dashboard_view_2.png          # Trend & tracking velocity view
-│   └── dashboard_view_3.png          # Risk & KPI summary view
+│   ├── page_1_overview.png               # Page 1: Executive & categorical distribution
+│   ├── page_2_tracking_trends.png        # Page 2: Submission velocity & tracking timeline
+│   ├── page_3_financial_metrics.png      # Page 3: Key financial & compliance metrics
+│   ├── page_4_organizational_metrics.png # Page 4: Organizational exposure & employee distribution
+│   └── page_5_risk_distribution.png      # Page 5: Risk level & forensic governance breakdown
 │
 ├── docs/
 │   ├── DAX_Measures.md               # Detailed DAX formulas & logic
