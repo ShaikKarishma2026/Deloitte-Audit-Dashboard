@@ -1,6 +1,8 @@
-# DAX Measure Library – Deloitte Audit Dashboard
+# DAX Measure Library – Audit Risk & Compliance Dashboard
 
 All measures below are implemented to support executive KPIs, risk metrics, and departmental analytics.
+
+> **Note on Table Referencing:** In the production Power BI Desktop report, the imported data table is named `'Deloitte_Audit_Data_Export_2026'` (matching the source CSV export). In generic documentation, it is aliased as `'Audit_Data'`. Both table references execute identically.
 
 ```dax
 // 1. Total Claims Volume

@@ -1,4 +1,4 @@
-# Data Dictionary – Deloitte Audit & Risk Dataset
+# Data Dictionary – Audit & Risk Governance Dataset
 
 This data dictionary documents all fields exported from the **AuditVault – Enterprise Cloud Audit & Risk Governance Engine** and modeled in the Power BI dashboard.
 

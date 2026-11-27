@@ -1,39 +1,40 @@
-# Deloitte Audit Dashboard – Enterprise Risk & Governance Analytics
-**Designed & Built by Shaik Karishma** | *Targeted for Deloitte 2027 NLA Analyst Trainee Recruitment*
+# Audit Risk & Compliance Dashboard – Enterprise Power BI Analytics
+**Designed & Built by Shaik Karishma**
 
-[![Power BI](https://img.shields.io/badge/Power_BI-Desktop_&_Service-yellow.svg)](https://powerbi.microsoft.com/)
-[![DAX](https://img.shields.io/badge/DAX-Advanced_Measures-orange.svg)]()
-[![Deloitte](https://img.shields.io/badge/Deloitte-Forensic_&_Audit-86BC25.svg)](https://www2.deloitte.com/)
-[![Python](https://img.shields.io/badge/Backend-Django_&_FastAPI-blue.svg)](https://www.djangoproject.com/)
-[![AWS](https://img.shields.io/badge/Cloud-AWS_S3_Vault-FF9900.svg)](https://aws.amazon.com/)
+[![Power BI](https://img.shields.io/badge/Power_BI-Desktop-yellow.svg)](https://powerbi.microsoft.com/)
+[![DAX](https://img.shields.io/badge/DAX-Calculations-orange.svg)]()
+[![Power Query](https://img.shields.io/badge/Power_Query-ETL-green.svg)]()
+[![Excel](https://img.shields.io/badge/Excel-Data_Source-217346.svg)]()
+[![Python](https://img.shields.io/badge/Python-Django_Backend-3776AB.svg)](https://www.djangoproject.com/)
+[![Git](https://img.shields.io/badge/Git-Version_Control-F05032.svg)]()
 
 ---
 
 ## 📌 Project Overview
-The **Deloitte Audit Dashboard** is an enterprise-grade business intelligence and forensic reporting solution developed in **Power BI**. It consumes transaction feeds directly from the **AuditVault – Enterprise Cloud Audit & Risk Governance Engine**, transforming raw audit logs into actionable, executive-level insights.
+The **Audit Risk & Compliance Dashboard** is an enterprise-grade business intelligence and forensic reporting solution developed in **Power BI**. It models and visualizes structured audit datasets exported from the **AuditVault – Enterprise Cloud Audit & Risk Governance Engine**, transforming recorded expense logs into actionable, executive-level insights.
 
-In corporate professional services and consulting firms like **Deloitte**, managing thousands of expense claims, internal procurement requests, and compliance audits requires real-time anomaly detection and transparent financial oversight. This dashboard addresses that need by tracking submission velocities, identifying high-risk policy violations, and providing drill-down visibility across organizational cost centers.
+In corporate consulting and professional services organizations, managing thousands of expense claims, internal procurement requests, and compliance audits requires systematic anomaly detection and transparent financial oversight. This dashboard addresses that need by tracking submission velocities, identifying high-risk policy violations, and providing drill-down visibility across organizational cost centers.
 
 ---
 
 ## 📊 Dashboard Visual Tour
 
-Here are views from the live Power BI dashboard:
+Here are the views from the Power BI dashboard report:
 
 ### Page 1: Executive Audit & Categorical Distribution
-![Deloitte Audit Dashboard - Page 1](screenshots/page_1_overview.png)
+![Page 1: Executive Audit & Categorical Distribution](https://raw.githubusercontent.com/ShaikKarishma2026/Deloitte-Audit-Dashboard/main/screenshots/page_1_overview.png)
 
 ### Page 2: Submission Velocity & Tracking Timeline Trends
-![Deloitte Audit Dashboard - Page 2](screenshots/page_2_tracking_trends.png)
+![Page 2: Submission Velocity & Tracking Timeline Trends](https://raw.githubusercontent.com/ShaikKarishma2026/Deloitte-Audit-Dashboard/main/screenshots/page_2_tracking_trends.png)
 
 ### Page 3: Key Financial & Compliance Metrics
-![Deloitte Audit Dashboard - Page 3](screenshots/page_3_financial_metrics.png)
+![Page 3: Key Financial & Compliance Metrics](https://raw.githubusercontent.com/ShaikKarishma2026/Deloitte-Audit-Dashboard/main/screenshots/page_3_financial_metrics.png)
 
 ### Page 4: Organizational Exposure & Employee Distribution
-![Deloitte Audit Dashboard - Page 4](screenshots/page_4_organizational_metrics.png)
+![Page 4: Organizational Exposure & Employee Distribution](https://raw.githubusercontent.com/ShaikKarishma2026/Deloitte-Audit-Dashboard/main/screenshots/page_4_organizational_metrics.png)
 
 ### Page 5: Risk Level & Forensic Governance Breakdown
-![Deloitte Audit Dashboard - Page 5](screenshots/page_5_risk_distribution.png)
+![Page 5: Risk Level & Forensic Governance Breakdown](https://raw.githubusercontent.com/ShaikKarishma2026/Deloitte-Audit-Dashboard/main/screenshots/page_5_risk_distribution.png)
 
 ---
 
@@ -44,7 +45,7 @@ The report is structured across **5 dedicated pages**, each tailored to a specif
 ### Page 1: Executive Overview & Categorical Distribution
 * **Visuals:** Clustered Column Charts, Pie Charts, Clustered Bar Charts, and Metric Cards.
 * **Objective:** Provides an executive summary of overall spending patterns across categories (*Software & Cloud, Client Entertainment, Hardware, Travel, Training*).
-* **Key Finding:** *Software, Cloud & Tools* constitutes the largest single expenditure category (₹873.5K across 13 claims).
+* **Key Finding:** *Software, Cloud & Tools* constitutes the largest single expenditure category (₹873,500.00 across 13 claims = 68.8% of total spend).
 
 ### Page 2: Submission Velocity & Tracking Timeline Trends
 * **Visuals:** Dual Line Charts (`Tracking Number Trend By Submission Date`).
@@ -54,31 +55,34 @@ The report is structured across **5 dedicated pages**, each tailored to a specif
 ### Page 3: Key Financial & Compliance Metrics
 * **Visuals:** Standalone KPI Card Visuals (`Total Amount(INR)`, `Total Tracking Records`, `Total Risk Flags`).
 * **Objective:** High-visibility scorecard displaying critical balance metrics at a glance.
-* **Key Finding:** ₹1,268,900.00 total expenditure tracked across 18 audited records with multiple automated policy flags.
+* **Key Finding:** ₹1,268,900.00 total expenditure tracked across 18 audited records with 46 automated policy flags.
 
 ### Page 4: Organizational Exposure & Employee Distribution
 * **Visuals:** KPI Card Visuals (`Total Employees`, `Total Department`, `Total Risk Score`).
 * **Objective:** Evaluates organizational spread and departmental risk concentrations.
-* **Key Finding:** Highlights cross-department activity between *Technology & Cloud Advisory* and *Forensic & Risk Consulting*.
+* **Key Finding:** Highlights cross-department activity between *Technology & Cloud Advisory* (17 claims, ₹1.22M) and *Forensic & Risk Consulting* (1 claim, ₹50.0K).
 
 ### Page 5: Risk Level & Forensic Governance Breakdown
 * **Visuals:** Donut Chart (`Risk Level Distribution`).
 * **Objective:** Categorizes all transactions into `LOW`, `MEDIUM`, `HIGH`, and `CRITICAL` risk tiers based on automated forensic rules.
-* **Key Finding:** 13 out of 18 claims (72%) fall into High or Critical risk brackets, demanding managerial and auditor scrutiny.
+* **Key Finding:** 13 out of 18 claims (72.2%) fall into High or Critical risk brackets, demanding managerial and auditor scrutiny.
 
 ---
 
-## 📈 Verified Dataset Insights (Actual Data)
+## 📈 Verified Dataset Insights (Audited Against Excel)
 
 | Metric | Verified Value | Business & Audit Context |
 | :--- | :--- | :--- |
-| **Total Audit Claims** | **18 Claims** | Complete dataset exported from the live AuditVault application |
+| **Total Audit Claims** | **18 Claims** | Complete dataset exported from the AuditVault application |
 | **Total Gross Amount** | **₹1,268,900.00** | Net expenditure across all business units |
-| **Approved Claims** | **7 Claims (₹516.9K)** | Fully vetted and cleared by managerial authority |
-| **Pending Approvals** | **4 Claims (₹302.0K)** | Awaiting manager review or escalated for audit clearance |
-| **Draft In-Progress** | **7 Claims (₹450.0K)** | Initial employee claims currently in draft state |
-| **High & Critical Risk** | **13 Claims (₹1.07M)** | Claims triggering policy limits ($>\text{₹}50\text{K}$) or missing invoices |
+| **Approved Claims** | **7 Claims (₹516,900.00)** | Fully vetted and cleared by managerial authority |
+| **Pending Approvals** | **4 Claims (₹302,000.00)** | Awaiting review (3 Submitted for Review + 1 Under Manager Review) |
+| **Draft In-Progress** | **7 Claims (₹450,000.00)** | Initial employee claims currently in draft state |
+| **High & Critical Risk** | **13 Claims (₹1,070,000.00)** | 11 High Risk + 2 Critical Risk claims (72.2% of total claims) |
+| **Total Risk Flags** | **46 Flags** | Cumulative automated forensic rules triggered across claims |
+| **Total Risk Score** | **955 Points** | Cumulative forensic score across 18 transactions (Average: 53.1 / 100) |
 | **Top Critical Claim** | **₹150,000.00** | *Executive Dining & Strategy Session* (Risk Score: 100/100) |
+| **Top Spending Category** | **₹873,500.00** | *Software, Cloud & Tools* (13 claims, 68.8% of total expenditure) |
 
 ---
 
@@ -86,30 +90,30 @@ The report is structured across **5 dedicated pages**, each tailored to a specif
 
 ```dax
 // Total Expenditure Volume
-Total Amount = SUM('Audit_Data'[Amount_INR])
+Total Amount = SUM('Deloitte_Audit_Data_Export_2026'[Amount_INR])
 
 // Approved Volume
-Approved Claims = CALCULATE(COUNTROWS('Audit_Data'), 'Audit_Data'[Status] = "Approved")
+Approved Claims = CALCULATE(COUNTROWS('Deloitte_Audit_Data_Export_2026'), 'Deloitte_Audit_Data_Export_2026'[Status] = "Approved")
 
 // Pending Volume
-Pending Claims = CALCULATE(COUNTROWS('Audit_Data'), 'Audit_Data'[Status] IN {"Submitted for Review", "Under Manager Review"})
+Pending Claims = CALCULATE(COUNTROWS('Deloitte_Audit_Data_Export_2026'), 'Deloitte_Audit_Data_Export_2026'[Status] IN {"Submitted for Review", "Under Manager Review"})
 
 // High & Critical Risk Claims
-High Risk Claims = CALCULATE(COUNTROWS('Audit_Data'), 'Audit_Data'[Risk_Level] IN {"HIGH", "CRITICAL"})
+High Risk Claims = CALCULATE(COUNTROWS('Deloitte_Audit_Data_Export_2026'), 'Deloitte_Audit_Data_Export_2026'[Risk_Level] IN {"HIGH", "CRITICAL"})
 
 // High Risk Exposure Rate
-High Risk % = DIVIDE([High Risk Claims], COUNTROWS('Audit_Data'), 0)
+High Risk % = DIVIDE([High Risk Claims], COUNTROWS('Deloitte_Audit_Data_Export_2026'), 0)
 
 // Average Forensic Risk Score
-Avg Risk Score = ROUND(AVERAGE('Audit_Data'[Risk_Score]), 1)
+Avg Risk Score = ROUND(AVERAGE('Deloitte_Audit_Data_Export_2026'[Risk_Score]), 1)
 ```
 
 *(Full measure formulas and descriptions are documented in [`docs/DAX_Measures.md`](docs/DAX_Measures.md)).*
 
 ---
 
-## 🎨 Deloitte Brand Design Guidelines
-* **Primary Palette:** Deloitte Green (`#86BC25`), Deep Slate (`#0F172A`), Slate Grey (`#334155`).
+## 🎨 Enterprise Design & Palette Guidelines
+* **Primary Palette:** Emerald Green (`#86BC25`), Deep Slate (`#0F172A`), Slate Grey (`#334155`).
 * **Status Signaling:** Approved (`#86BC25`), Pending Review (`#F59E0B`), Critical Risk / Rejection (`#E11D48`).
 * **Typography:** Clean, high-legibility Segoe UI / Fluent styling with card drop-shadows.
 
@@ -155,9 +159,8 @@ Deloitte-Audit-Dashboard/
 
 ---
 
-## 👤 Author & Background
+## 👤 Author
 * **Developer:** Shaik Karishma
-* **Target Role:** Analyst Trainee / Associate (Deloitte 2027 NLA)
-* **Certifications:** Deloitte Technology Job Simulation (Forage), Deloitte Australia Data Analytics Simulation (Forage), AWS Solutions Architecture (Forage), Pluto Academy Java DSA.
+* **Role:** Data Analyst / Power BI Developer
 * **LinkedIn:** [linkedin.com/in/Karishma2026](https://linkedin.com/in/Karishma2026)
 * **GitHub:** [github.com/ShaikKarishma2026](https://github.com/ShaikKarishma2026)

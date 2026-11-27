@@ -3,6 +3,11 @@
 *.tmp
 *.bak
 
+# Python
+__pycache__/
+*.pyc
+build_interview_pdf.py
+
 # OS specific
 Thumbs.db
 .DS_Store
